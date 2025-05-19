@@ -23,15 +23,19 @@
         </p>
       </div>
       <div
-        class="flex-1 flex justify-center mt-12 md:mt-0 relative height-[25rem]"
+        class="flex-1 flex justify-center mt-12 md:mt-0 relative size-[20rem] md:size-[25rem]"
       >
         <div class="absolute inset-0 flex items-center justify-center pb-10">
-          <img src="@/assets/logo.png" alt="wrapper" class="w-[14rem]" />
+          <img
+            src="@/assets/logo.png"
+            alt="wrapper"
+            class="w-[12rem] md:w-[14rem]"
+          />
         </div>
         <img
           src="@/assets/logo_wrapper.png"
           alt="wrapper"
-          class="size-[25rem]"
+          class="size-[20rem] md:size-[25rem]"
         />
       </div>
     </div>
