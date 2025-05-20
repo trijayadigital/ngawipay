@@ -74,7 +74,7 @@ onMounted(() => {
         <img src="@/assets/logo_wrapper.png" alt="wrapper" class="size-[20rem] md:size-[25rem]" />
       </div>
     </div>
-    <div class="absolute z-10 -left-80 size-[64rem] rounded-full bg-blue-200/80 blur-3xl"></div>
+    <div class="absolute z-10 -left-80 size-[64rem] rounded-full bg-blue-100/90 blur-3xl"></div>
   </section>
 </template>
 
