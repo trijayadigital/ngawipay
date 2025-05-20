@@ -53,7 +53,10 @@ onMounted(() => {
       </div>
       <div class="flex-1 flex justify-center mt-12 md:mt-0 relative size-[20rem] md:size-[25rem]">
         <div class="absolute z-10 w-full h-full flex items-center justify-center">
-          <button @click="toggleAudio" class="bg-white/80 hover:bg-white rounded-full p-3 shadow-lg transition-all duration-300 hover:scale-110 mb-5">
+          <button
+            @click="toggleAudio"
+            class="bg-white/80 hover:bg-white rounded-full p-3 shadow-lg transition-all duration-300 hover:scale-110 mb-5 cursor-pointer"
+          >
             <svg v-if="isPlaying" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-16 text-blue-500">
               <path
                 d="M6.75 4.75a.75.75 0 00-.75.75v13a.75.75 0 00.75.75h2.5a.75.75 0 00.75-.75v-13a.75.75 0 00-.75-.75h-2.5zm8 0a.75.75 0 00-.75.75v13a.75.75 0 00.75.75h2.5a.75.75 0 00.75-.75v-13a.75.75 0 00-.75-.75h-2.5z"
