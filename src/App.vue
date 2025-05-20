@@ -12,7 +12,7 @@
           <img src="@/assets/logo_long.png" alt="wrapper" class="w-[22rem]" />
         </div>
         <h1
-          class="text-5xl md:text-7xl text-center md:text-left font-bold text-gray-900 mb-8 md:mb-16 leading-tight"
+          class="text-5xl md:text-7xl text-center md:text-left font-bold bg-gradient-to-r from-[#0096FF] to-[#5BCFE8] text-transparent bg-clip-text mb-8 md:mb-16 leading-tight h-[6rem]"
         >
           Coming Soon
         </h1>
